@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.jpeg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <div class="avatar-box">
+          <img src="assets/images/profile.jpeg" alt="">
+        </div>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Gianfranco Manchinari</h1>
+
+          <p class="title">BACK-END DEVELOPER</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:gianfranco271004@gmail.com" class="contact-link">gianfranco271004@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Celular</p>
+
+              <a href="tel:+51917342057" class="contact-link">+51 917342057</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Año de Nacimiento</p>
+
+              <time datetime="1982-06-23">Octubre 27, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ubicacion</p>
+
+              <address>Lima, Perú</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/gianfranco.manchinari.7" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/gianfranco-manchinari-guerrero-486516241/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/GIAN2049" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Estudiante de últimos ciclos de la carrera de Computación e Informática en el Instituto Cibertec, con sólidas habilidades en trabajo en equipo, adaptabilidad y creatividad. Mi pasión se encuentra en el desarrollo backend, además me gustaría desarrollarme en áreas como el desarrollo de aplicaciones móviles. Autodidacta y siempre en busca de nuevos desafíos, comprometido con mi crecimiento profesional.
+          </p>
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <div class="skills-container skill-card">
+
+            <ul class="skills-list">
+
+              <li class="skill-item">
+                <a href="#">
+                  <figure class="skill-img">
+                    <img src="./assets/images/icons8-java-100.png" alt="finance" loading="lazy">
+                  </figure>
+                  <p class="project-category">JAVA</p>
+                </a>
+              </li>
+  
+              <li class="skill-item">
+                <a href="#">
+                  <figure class="skill-img">
+                    <img src="./assets/images/icons8-javascript-100.png" alt="orizon" loading="lazy">
+                  </figure>
+                  <p class="project-category">JAVASCRIPT</p>
+                </a>
+              </li>
+  
+              <li class="skill-item">
+                <a href="#">
+                  <figure class="skill-img">
+                    <img src="./assets/images/icons8-microsoft-sql-server-100.png" alt="fundo" loading="lazy">
+                  </figure>
+                  <p class="project-category">SQL</p>
+  
+                </a>
+              </li>
+  
+              <li class="skill-item">
+                <a href="#">
+                  <figure class="skill-img">
+                    <img src="./assets/images/icons8-spring-boot-100.png" alt="fundo" loading="lazy">
+                  </figure>
+                  <p class="project-category">SPRING-BOOT</p> 
+                </a>
+              </li>
+              <li class="skill-item">
+                <a href="#"> 
+                  <figure class="skill-img"> 
+                    <img src="./assets/images/icons8-bootstrap-100.png" alt="fundo" loading="lazy">
+                  </figure>                 
+                  <p class="project-category">BOOTSTRAP</p>
+                </a>
+              </li>
+  
+              <li class="skill-item">
+                <a href="#">
+                  <figure class="skill-img">
+                    <img src="./assets/images/icons8-thymeleaf-100.png" alt="fundo" loading="lazy">
+                  </figure>
+                  <p class="project-category">THYMELEAF</p>
+                </a>
+              </li>
+  
+            </ul>
+
+          </div>
+
+        </section>
+        
+
+      </article>
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educacion</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">INSTITUTO SUPERIOS TECNOLOGICO CIBERTEC</h4>
+
+              <span>2021 — Actualidad</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Proyectos Academicos</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Clinica Medijoven</h4>
+
+              <span>21, Mayo 2023 — 25, Junio 2023</span>
+
+              <p class="timeline-text">
+                Este proyecto de software desarrollado en Spring Boot se centra en la gestión eficiente de una clínica médica. Proporciona una plataforma para llevar un registro detallado de medicamentos y sus tipos, pacientes, doctores, recetas médicas y citas médicas. Además, incluye un sistema de administración de usuarios con roles para garantizar la seguridad y el acceso adecuado a las diferentes partes del sistema.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ANALISIS DE LICENCIA DE FUNCIONAMIENTO</h4>
+
+              <span>25, Septiembre 2022 - 29, Noviembre 2022</span>
+
+              <p class="timeline-text">
+                Este proyecto de software, desarrollado con una variedad de tecnologías, tiene como objetivo simplificar y mejorar el proceso de análisis y gestión de licencias de funcionamiento para empresas en la Municipalidad de Miraflores, Lima. El sistema proporciona una plataforma eficiente para la solicitud, revisión y seguimiento de licencias, así como la generación de informes útiles para las autoridades municipales.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SISTEMA DE GESTION DE MATRICULAS</h4>
+
+              <span>24, Abril 2022 - 20, Junio 2022</span>
+
+              <p class="timeline-text">
+                Este proyecto de software desarrollado en Eclipse se enfoca en la gestión eficiente de matrículas académicas en una institución educativa. El sistema permite el registro de alumnos, asignaturas, docentes, periodos académicos, matrículas, y ofrece la capacidad de generar reportes detallados. Además, se incluye un sistema de inicio de sesión para garantizar la seguridad y el acceso adecuado a las funcionalidades.
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web applications">
+              <a href="https://github.com/GIAN2049/CLINICAMEDIJOVEN_SPRINGBOOT">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyecto_03.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CLINICA MEDIJOVEN</h3>
+
+                <p class="project-category">APP WEB</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web applications">
+              <a href="https://github.com/GIAN2049/Municipalidad_Miraflores_Licencia_de_Funcionamiento">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyecto_02.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ANALISIS DE LICENCIA DE FUNCIONAMIENTO</h3>
+
+                <p class="project-category">APP WEB</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Desktop App">
+              <a href="https://github.com/GIAN2049/SISTEMA_DE_GESTION_DE_MATRICULAS">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyecto_01.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SISTEMA DE MATRICULAS</h3>
+
+                <p class="project-category">DESKTOP APP</p>
+
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
